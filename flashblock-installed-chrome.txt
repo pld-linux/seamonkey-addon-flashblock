@@ -1,0 +1,1 @@
+content,install,url,jar:resource:/chrome/flashblock.jar!/content/flashblock/
