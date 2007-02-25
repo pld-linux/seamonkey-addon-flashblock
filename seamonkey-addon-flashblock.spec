@@ -1,5 +1,5 @@
 Summary:	Show flash-button, not flash-animation
-Summary(pl):	Wy¶wietlanie przycisku z ikon± Flash zamiast animacji flash.
+Summary(pl.UTF-8):	WyÅ›wietlanie przycisku z ikonÄ… Flash zamiast animacji flash.
 %define		_realname	flashblock
 Name:		seamonkey-addon-%{_realname}
 Version:	1.5.2
