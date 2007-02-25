@@ -13,6 +13,7 @@ URL:		http://flashblock.mozdev.org/
 BuildRequires:	unzip
 BuildRequires:	zip
 Requires(post,postun):	seamonkey >= 1.0
+Requires:	browser(flash)
 Requires:	seamonkey >= 1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
