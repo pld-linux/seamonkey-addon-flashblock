@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Wyświetlanie przycisku z ikoną Flash zamiast animacji flash
 %define		_realname	flashblock
 Name:		seamonkey-addon-%{_realname}
 Version:	1.3.5
-Release:	0.1
+Release:	1
 License:	unknown
 Group:		X11/Applications/Networking
 Source0:	http://downloads.mozdev.org/flashblock/%{_realname}-%{version}.xpi
@@ -13,8 +13,8 @@ URL:		http://flashblock.mozdev.org/
 BuildRequires:	unzip
 BuildRequires:	zip
 Requires(post,postun):	seamonkey >= 1.0
-Requires:	browser(flash)
 Requires:	seamonkey >= 1.0
+#Suggests:	browser(flash)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
