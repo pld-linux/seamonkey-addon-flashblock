@@ -1,5 +1,5 @@
 Summary:	Show flash-button, not flash-animation
-Summary(pl.UTF-8):	Wyświetlanie przycisku z ikoną Flash zamiast animacji flash.
+Summary(pl.UTF-8):	Wyświetlanie przycisku z ikoną Flash zamiast animacji flash
 %define		_realname	flashblock
 Name:		seamonkey-addon-%{_realname}
 Version:	1.3.5
@@ -18,14 +18,21 @@ Requires:	seamonkey >= 1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_chromedir	%{_datadir}/seamonkey/chrome
+%define		_chromedir	%{_datadir}/seamonkey/chrome
 
 %description
-Flashblock is an extension for the Mozilla, Firefox, and Netscape browsers
-that takes a pessimistic approach to dealing with Macromedia Flash content
-on a webpage and blocks ALL Flash content from loading. It then leaves
-placeholders on the webpage that allow you to click to download and then
-view the Flash content.
+Flashblock is an extension for the Mozilla, Firefox, and Netscape
+browsers that takes a pessimistic approach to dealing with Macromedia
+Flash content on a webpage and blocks ALL Flash content from loading.
+It then leaves placeholders on the webpage that allow you to click to
+download and then view the Flash content.
+
+%description -l pl.UTF-8
+Flashblock to rozszerzenie dla przeglądarek Mozilla, Firefox i
+Netscape przyjmujące pesymistyczne podejście do obsługi treści w
+formacie Macromedia Flash na stronach i blokujące wczytywanie
+WSZYSTKICH elementów we Flashu. Zamiast nich pojawiają się zaślepki,
+które można kliknąć w celu ściągnięcia i obejrzenia treści we Flashu.
 
 %prep
 %setup -qc
