@@ -2,12 +2,12 @@ Summary:	Show flash-button, not flash-animation
 Summary(pl.UTF-8):	Wyświetlanie przycisku z ikoną Flash zamiast animacji flash
 %define		_realname	flashblock
 Name:		seamonkey-addon-%{_realname}
-Version:	1.3.5
+Version:	1.5.8
 Release:	1
-License:	unknown
+License:	MPL 1.1/GPL 2.0/LGPL 2.1
 Group:		X11/Applications/Networking
 Source0:	http://downloads.mozdev.org/flashblock/%{_realname}-%{version}.xpi
-# Source0-md5:	fa589cc2482da81870c21a38d210c008
+# Source0-md5:	0fd33324aa41b213ccf40170d753168e
 Source1:	gen-installed-chrome.sh
 URL:		http://flashblock.mozdev.org/
 BuildRequires:	unzip
